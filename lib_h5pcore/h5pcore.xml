@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="library" version="2.5" method="upgrade">
+	<name>H5P Core</name>
+	<author>Joubel AS</author>
+	<authorEmail>contact@joubel.com</authorEmail>
+	<authorUrl>joubel.com</authorUrl>
+	<libraryname>h5pcore</libraryname>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) 2013 Joubel AS</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>0.3.4</version>
+	<description>The H5P Core library contains the H5P PHP libraries from h5p.org as well as the integration layer for Joomla.</description>
+
+	<files folder="libraries">
+		<folder>core</folder>
+		<folder>editor</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>media</folder>
+		<file>h5pjoomla.php</file>
+	</files>
+</extension>

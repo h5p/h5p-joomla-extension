@@ -1,0 +1,1 @@
+-- Placeholder for Joomlas schema numbering to work.

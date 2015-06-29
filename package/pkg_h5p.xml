@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="2.5">
+	<name>H5P Package</name>
+	<author>Joubel AS</author>
+	<authorUrl>joubel.com</authorUrl>
+	<packagename>h5p</packagename>
+	<version>0.3.4</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<creationDate>July 2013</creationDate>
+	<url>http://h5p.org/</url>
+	<packager>Joubel AS</packager>
+	<packagerurl>http://h5p.org/</packagerurl>
+	<description>H5P Package. Adds support for H5P content to your Articles. Includes the H5P Core Library, Component, Content plugin, user plugin and Editor plugin. Remember to turn the plugins on after installation.</description>
+	<files folder="packages">
+		<file type="component" id="com_h5p">com_h5p.zip</file>
+		<file type="library" id="h5pcore">lib_h5pcore.zip</file>
+		<file type="plugin" id="h5p" group="content">plg_content_h5p.zip</file>
+		<file type="plugin" id="h5p" group="user">plg_user_h5p.zip</file>
+		<file type="plugin" id="h5p" group="editors-xtd">plg_editors_xtd_h5p.zip</file>
+	</files>
+</extension>

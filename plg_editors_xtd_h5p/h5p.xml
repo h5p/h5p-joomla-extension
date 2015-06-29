@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="editors-xtd" method="upgrade">
+	<name>H5P Button</name>
+	<author>Joubel AS</author>
+	<authorEmail>contact@joubel.com</authorEmail>
+	<authorUrl>h5p.org</authorUrl>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) 2013 Joubel AS</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>0.3.4</version>
+	<description>PLG_EDITORSXTD_H5P_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>language</folder>
+		<filename plugin="h5p">h5p.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

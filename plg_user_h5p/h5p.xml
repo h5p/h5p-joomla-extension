@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+	<name>H5P User</name>
+	<author>Joubel</author>
+	<creationDate>August 2013</creationDate>
+	<copyright>(C) 2013 Joubel AS. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@joubel.com</authorEmail>
+	<authorUrl>joubel.com</authorUrl>
+	<version>0.3.4</version>
+	<description>PLG_CONTENT_H5P_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>language</folder>
+		<filename plugin="h5p">h5p.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+</extension>

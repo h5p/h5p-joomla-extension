@@ -1,0 +1,90 @@
+#main div#h5pjoomlawrapper,
+#joomlamain div#h5pjoomlawrapper
+{
+	background-image: url(h5p-logo.128x128.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#main h2#h5phead,
+#joomlamain h2#h5phead
+{
+	font-family: 'Titillium Maps', Arial, sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	color: #555;
+
+	padding-left: 120px;
+	line-height: 100px;
+}
+#main ul#h5p-actions,
+#joomlamain ul#h5p-actions
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#main ul#h5p-actions li.h5p-action,
+#joomlamain ul#h5p-actions li.h5p-action
+{
+	float: left;
+	margin: 12px;
+	padding: 10px;
+	border: 1px solid #555;
+	border-radius: 6px;
+	text-align: center;
+}
+#main ul#h5p-actions li.h5p-action:hover,
+#joomlamain ul#h5p-actions li.h5p-action:hover
+{
+	background-color: #ccc;
+	border-color: black;
+	box-shadow: 2px 2px 2px #ccc;
+}
+#main ul#h5p-actions li.h5p-action a,
+#joomlamain ul#h5p-actions li.h5p-action a
+{
+	width: 100px;
+	height: 48px;
+	padding-top: 62px;
+	background-image: url(h5p-logo.64x64.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: block;
+	line-height: 16px;
+	font-size: 14px;
+}
+#main ul#h5p-actions li.h5p-action a:hover,
+#joomlamain ul#h5p-actions li.h5p-action a:hover
+{
+	background-color: transparent;
+	color: black;
+}
+#joomlamain div.h5p-content,
+div.h5p-content {
+	width: auto;
+	height: 100%;
+}
+body.contentpane.contentpane {
+	margin: 0;
+	padding: 0.5em;
+}
+.title-input {
+	margin: 20px 0;
+}
+#h5p-form-save {
+	background-color: #A7A7FF;
+	border-color: #999999;
+	color: #FFFFFF;
+	float: right;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.3em 0.5em;
+	cursor: pointer;
+}
+html.h5p-fullscreen, body.h5p-fullscreen {
+	height: 100%;
+	overflow: hidden;
+}
