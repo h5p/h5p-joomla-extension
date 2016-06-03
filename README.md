@@ -1,3 +1,5 @@
+**This extension is outdated. It only works with old alpha/beta versions of the H5P content types**
+
 This is the Joomla H5P integration package.  It consists of 3 parts and the
 containing extension package to wrap them.
 
